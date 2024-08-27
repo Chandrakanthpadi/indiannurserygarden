@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Nursery Garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marcellus+SC&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100dvh;
+      background-color: #013831;
+    }
+    h1 {
+      color: #ffde59;
+      font-weight: bold;
+      font-size: 2.4rem;
+      font-family: "Marcellus SC", serif;
+      font-weight: 900;
+      padding: 0.6rem 2.4rem;
+      padding-bottom: 0rem;
+      text-wrap: pretty;
+      top: 1rem;
+      text-align: center;
+      @media screen and (max-width: 599px) {
+        /* Styles for phones */
+        font-size: 1.6rem;
+        padding-top: 0.4rem;
+      }
+    }
+    .tagline {
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      max-width: 90vw;
+      text-align: center;
+      margin-top: 1.8rem;
+      text-wrap: pretty;
+    }
+    .tag {
+      color: #fff;
+      font-family: "Martel Sans", sans-serif;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+    }
+    .logo {
+      border-radius: 100%;
+      width: 20rem;
+      margin-top: 2rem;
+    }
+    .button {
+      padding: 0.8rem 3.6rem;
+      background-color: #ffde59;
+      margin-top: 0.2rem;
+      font-family: "Martel Sans", sans-serif;
+      font-weight: 900;
+      font-size: 1.1rem;
+      color: #000;
+      text-decoration: none;
+      box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.75);
+    }
+    .links {
+      height: 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-direction: column;
+      margin-left: 2rem;
+      @media screen and (max-width: 599px) {
+        /* Styles for phones */
+        font-size: 1.6rem;
+        padding-top: 0.4rem;
+      }
+    }
+    .link {
+      height: 100%;
+    }
+    .container-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-grow: 1;
+      position: relative;
+    }
+
+    @media screen and (max-width: 599px) {
+      .links {
+        position: absolute;
+        top: 2.4rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 1.8rem;
+        width: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+      }
+      .logo {
+        width: 16rem;
+      }
+      .tagline {
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="links">
+        <a href="tel:+919640358135" class="link">
+          <img src="./phone1.svg" class="link" />
+        </a>
+        <a href="mailto:indiangreen.nursery@outlook.com" class="link">
+          <img src="./mail1.svg" class="link"
+        /></a>
+        <a href="https://wa.me/919640358135" class="link">
+          <img src="./Whatsapp1.svg" class="link"
+        /></a>
+        <a href="" class="link"> <img src="./Insta1.svg" class="link" /></a>
+      </div>
+      <div class="container-wrap">
+        <img src="./Indian-nursery.svg" class="logo" />
+        <p class="tagline">
+          Bringing nature’s beauty to your doorstep with premium plants,
+          expertly grown and shipped worldwide.
+        </p>
+        <h1>Indian Nursery Garden</h1>
+        <p class="tag">THOUGH ROOTS</p>
+        <a href="" class="button">Contact Us</a>
+      </div>
+    </div>
+  </body>
+</html>
